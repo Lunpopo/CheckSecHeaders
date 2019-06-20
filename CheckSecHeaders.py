@@ -42,7 +42,7 @@ def banner():
 
 
 def argument_parse():
-    parse = ArgumentParser(description='This is check if server has setted up security headers small script',
+    parse = ArgumentParser(description='Detecting server-end whether has setted security header',
                            add_help=False)
 
     helper = parse.add_argument_group('Help')

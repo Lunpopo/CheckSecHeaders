@@ -1,20 +1,29 @@
 # CheckSecHeaders Script
-##### Description
-检测给出的 url 服务器是否设置了安全Headers，仅适用于Python2.\*，Python3.\* 暂时没适配
+### Description
+Detecting server-end whether has setted security header.
 
-##### Options
+Supporting python2 temporary.
+
+### Options
+##### Help:
+-h, --help -> Show this help message and exit
+
+##### Mandatory Arguments:
+-u URL, --url URL -> Scan target URL
+
+##### Optional Arguments:
+-c COOKIES, --cookie COOKIES -> Set cookies for URL headers, for example: --cookies='PS=1560911095; BR_RPN=123253;'
+
+-d, --disable_ssl_check -> disable SSL/TLS certificate
+
+--proxy PROXY_URL -> Set proxy to request url for example: --proxy='http://127.0.0.1'
 ```
--h                      展示此脚本的帮助信息
---help
 
--e                      show English help
---english_help
+##### Author
+Lunpopo
 
--c COOKIES              设置 cookies 到 headers 中
---cookie="COOKIES"
+source link: [Gtihub](https://github.com/Lunpopo/CheckSecHeaders)
 
--d                      关闭 SSL/TLS 证书验证
---disable_ssl
+Its a very light and simple tools for examining the server whether setted security header.
 
---proxy="PROXY_URL"     设置一个代理, 例如: http://127.0.0.1
-```
+If you have any question or awesome suggestion please contact me, Thanks a lot! [commit issues](https://github.com/Lunpopo/CheckSecHeaders/issues)

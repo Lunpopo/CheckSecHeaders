@@ -1,6 +1,8 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+# vim file temporary
+*.swp
 
 
 */.DS_Store
