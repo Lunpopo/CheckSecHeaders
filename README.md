@@ -17,7 +17,6 @@ Supporting python2 temporary.
 -d, --disable_ssl_check -> disable SSL/TLS certificate
 
 --proxy PROXY_URL -> Set proxy to request url for example: --proxy='http://127.0.0.1'
-```
 
 ##### Author
 Lunpopo
