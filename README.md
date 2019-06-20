@@ -18,7 +18,7 @@ Supporting python2 temporary.
 
 --proxy PROXY_URL -> Set proxy to request url for example: --proxy='http://127.0.0.1'
 
-##### Author
+### Author
 Lunpopo
 
 source link: [Gtihub](https://github.com/Lunpopo/CheckSecHeaders)
